@@ -103,7 +103,7 @@ jobs:
       - uses: ./
         with:
           channel: stable
-          flutter-version-file: pubspec.yaml
+          flutter-version: 3.24.3
       - name: Verify Dart version
         run: dart --version | grep '2.18.6'
         shell: bash
