@@ -105,10 +105,10 @@ jobs:
           channel: stable
           flutter-version: 3.24.3
       - name: Verify Dart version
-        run: dart --version | grep '2.18.6'
+        run: dart --version | grep '3.5.3'
         shell: bash
       - name: Verify Flutter version
-        run: flutter --version | grep '3.3.10'
+        run: flutter --version | grep '3.24.3'
         shell: bash
 
   test_print_output:
